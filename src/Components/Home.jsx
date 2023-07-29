@@ -84,7 +84,7 @@ const Home = () => {
         <div className="clip-your-needful-style ">
           <img src={des} alt="somek" id="hello" />
         </div>
-        <div className="clip-your-needful-style -mt-10">
+        <div className="clip-your-needful-style mt-10">
           <img src={BUI} alt="somek" id="hello" />
         </div>
       </div>
