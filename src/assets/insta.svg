@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 388.44 63.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1f2f2;
+        font-family: NeueMetanaNextFreePersonal-Sm, 'Neue Metana Next Free Personal';
+        font-size: 52.7px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.08em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-1" transform="translate(0 44.79)"><tspan x="0" y="0">IN</tspan><tspan class="cls-3" x="78.89" y="0">S</tspan><tspan class="cls-5" x="123.68" y="0">T</tspan><tspan class="cls-4" x="152.4" y="0">A</tspan><tspan x="194.41" y="0">G</tspan><tspan class="cls-2" x="246.95" y="0">R</tspan><tspan x="288.79" y="0">AM</tspan></text>
+  </g>
+</svg>
