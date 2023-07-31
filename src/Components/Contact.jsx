@@ -67,7 +67,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="relative h-96  w-screen my-20 md:mt-32 md:mb-5 xl:mb-24">
+    <div className="relative h-96  w-screen my-20 md:mt-32 md:mb-5 xl:mb-15">
       <img
         src={strip}
         id="strip1"
@@ -144,7 +144,7 @@ const Contact = () => {
         src={XX}
         id="XX1"
         alt="somke"
-        className=" absolute lg:h-20 h-10 top-[21rem] md:top-[9rem] xl:md:top-[20rem] ml-[10%]  "
+        className=" absolute lg:h-20 h-10 top-[10rem] md:top-[9rem] xl:top-[18rem] ml-[10%]  "
       />
     </div>
   );
