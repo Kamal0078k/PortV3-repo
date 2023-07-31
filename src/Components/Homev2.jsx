@@ -1,0 +1,124 @@
+import React, { useEffect } from "react";
+import { ScrollTrigger } from "gsap/all";
+import gsap from "gsap";
+
+import fsd from "./../assets/Home/FSD.svg";
+import gd from "./../assets/Home/GD.svg";
+import ui from "./../assets/Home/UI.svg";
+import sd from "./../assets/Home/SD.svg";
+import kl from "./../assets/Home/KL.svg";
+
+const Homev2 = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.fromTo(
+      "#header",
+      {
+        y: -50,
+      },
+      {
+        y: 0,
+        ease: "expo.out",
+        duration: 1,
+      }
+    );
+
+    gsap.fromTo(
+      "#fsd",
+      {
+        y: 100,
+      },
+      {
+        y: 0,
+        ease: "expo.out",
+        delay: 2.8,
+        duration: 1.5,
+      }
+    );
+
+    gsap.fromTo(
+      "#gd",
+      {
+        y: 100,
+      },
+      {
+        y: 0,
+        ease: "expo.out",
+        delay: 3,
+        duration: 1.5,
+      }
+    );
+
+    gsap.fromTo(
+      "#ui",
+      {
+        y: 100,
+      },
+      {
+        y: 0,
+        ease: "expo.out",
+        delay: 3.2,
+        duration: 1.5,
+      }
+    );
+
+    gsap.fromTo(
+      "#sd",
+      {
+        y: 100,
+      },
+      {
+        y: 0,
+        ease: "expo.out",
+        delay: 3.5,
+        duration: 1.5,
+      }
+    );
+    gsap.fromTo(
+      "#kl",
+      {
+        y: 100,
+      },
+      {
+        y: 0,
+        ease: "expo.out",
+        delay: 3.3,
+        duration: 1.5,
+      }
+    );
+  }, []);
+
+  return (
+    <div className="h-screen flex flex-col overflow-x-hidden overflow-y-hidden">
+      {/* <div
+        id="header"
+        className="font-archivo xl:px-16 text-2xl h-20 flex items-center"
+      >
+        Portfolio
+      </div> */}
+      <div className="px-16 h-20 flex flex-row items-center" id="header">
+        PORTFOLIO
+      </div>
+      <div className="flex-1 mt-10">
+        <div className=" mt-3 w-full clip-your-needful-style">
+          <img src={fsd} id="fsd" alt="fsd" className="xl:h-20 m-auto" />
+        </div>
+        <div className="clip-your-needful-style w-full mt-3 xl:h-28 flex justify-center items-center bg-black">
+          <img src={gd} alt="gd" id="gd" className="xl:h-20 m-auto" />
+        </div>
+        <div className="w-full mt-3 clip-your-needful-style">
+          <img src={ui} alt="ui" id="ui" className="xl:h-20 m-auto" />
+        </div>
+        <div className="w-full xl:h-28 flex justify-center clip-your-needful-style items-center h-20 mt-3 bg-black">
+          <img src={sd} alt="sd" id="sd" className="xl:h-20 m-auto" />
+        </div>
+        <div className=" flex h-24 mt-5 flex-col justify-center items-center font-pops text-2xl clip-your-needful-style">
+          <div>THEY CALL ME</div>
+          <img src={kl} id="kl" alt="kl" className="h-8 ml-2" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Homev2;

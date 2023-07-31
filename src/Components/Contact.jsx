@@ -67,7 +67,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="relative h-96  w-full my-20">
+    <div className="relative h-96  w-full my-20 md:mt-32 md:mb-5 xl:mb-24">
       <img
         src={strip}
         id="strip1"
@@ -76,23 +76,32 @@ const Contact = () => {
       />
       <img src={circ} id="circ1" className="absolute h-20  left-[80%]" />
       <a href="https://github.com/Kamal0078k" target="_blank" rel="noreferrer">
-        <img src={git} className="left-20 top-24  z-10 absolute h-20" />
+        <img
+          src={git}
+          className="left-20 xl:top-24 md:h-8 z-10 absolute h-4 lg:h-20"
+        />
       </a>
       <a
         href="https://www.instagram.com/kamal_arukala/"
         target="_blank"
         rel="noreferrer"
       >
-        <img src={insta} className="z-10 left-20 top-4 absolute h-20" />
+        <img
+          src={insta}
+          className="z-10 left-20 xl:top-4 md:h-8 absolute h-4 lg:h-20"
+        />
       </a>
       <a
         href="https://www.linkedin.com/in/kamal-arukala-08534b173/"
         target="_blank"
         rel="noreferrer"
       >
-        <img src={link} className="z-10 left-20 top-44 absolute h-20" />
+        <img
+          src={link}
+          className="z-10 left-20 xl:top-44 md:h-8  absolute h-4 lg:h-20"
+        />
       </a>
-      <div className="text-white absolute z-10 top-80 left-[80%]">
+      <div className="text-white absolute xl:top-[20rem] xl:left-[80%] z-10 md:top-44 top-80 left-[60%]">
         <div>Mail : saikamal0078@gmail.com</div>
         <div>+91 8374743555</div>
       </div>
@@ -102,13 +111,13 @@ const Contact = () => {
         muted
         loop
         type="video/webm"
-        className="px-16  h-[100%] w-[100%]  object-cover rounded-md absolute"
+        className="xl:px-16 px-5  md:h-[60%] xl:h-[100%] w-[100%]  object-cover rounded-md absolute"
       />
       <img
         src={XX}
         id="XX1"
         alt="somke"
-        className=" absolute h-20 top-[21rem] ml-[10%]  "
+        className=" absolute lg:h-20 h-10 top-[21rem] md:top-[9rem] xl:md:top-[20rem] ml-[10%]  "
       />
     </div>
   );

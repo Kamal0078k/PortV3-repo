@@ -62,18 +62,22 @@ const Quote = () => {
     );
   }, []);
   return (
-    <div className="px-16 h-screen w-full flex-col flex justify justify-center ">
+    <div className="lg:px-16 md:px-10 h-screen w-full flex-col md:-mt-52 xl:mt-0 flex justify justify-center ">
       <div className="relative">
-        <img src={strip} alt="somke" className=" h-60 ml-[70%] " />
+        <img
+          src={strip}
+          alt="somke"
+          className=" xl:h-60 h-32 lg:ml-[70%] ml-[60%] md:ml-[60%] "
+        />
         <img
           src={circ}
           id="circ"
-          className="absolute h-20 bottom-10 left-[85%]"
+          className="absolute xl:h-20 h-10 bottom-10 left-[85%]"
         />
       </div>
       <div
         id="sntn"
-        className=" text-center font-archivo text-5xl flex justify-center"
+        className=" text-center font-archivo text:lg  xl:text-5xl flex justify-center"
       >
         <div className="w-4/5">
           “Simplicity will stand out, while complexity will get lost in the
