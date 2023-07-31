@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Home from "./Components/Home";
 import Quote from "./Components/Quote";
 import Works from "./Components/Works";
@@ -44,9 +44,9 @@ function App() {
         <div className="overflow-x-hidden">
           <Homev2 />
           {/* <Home /> */}
-          <Quote />
+          {/* <Quote />
           <Works />
-          <Contact />
+          <Contact /> */}
         </div>
       </div>
     </>

@@ -67,7 +67,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="relative h-96  w-screen my-20 md:mt-32 md:mb-5 xl:mb-15">
+    <div className="relative h-96  w-screen my-20 md:mt-32  md:mb-5 xl:mb-15">
       <img
         src={strip}
         id="strip1"

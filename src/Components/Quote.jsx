@@ -62,7 +62,7 @@ const Quote = () => {
     );
   }, []);
   return (
-    <div className="lg:px-16 md:px-10 h-screen w-full flex-col md:-mt-52 xl:mt-0 flex justify justify-center ">
+    <div className="lg:px-16 md:px-10 h-screen  w-full flex-col md:-mt-52 xl:mt-0 flex justify justify-center ">
       <div className="relative">
         <img
           src={strip}
@@ -77,7 +77,7 @@ const Quote = () => {
       </div>
       <div
         id="sntn"
-        className=" text-center font-archivo text:lg  xl:text-5xl flex justify-center"
+        className=" text-center font-archivo text:lg lg:text-4xl  xl:text-5xl flex justify-center"
       >
         <div className="w-4/5">
           “Simplicity will stand out, while complexity will get lost in the
